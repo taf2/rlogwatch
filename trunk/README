@@ -1,0 +1,11 @@
+LogWatch is a simple application that lets you monitor a specific log file via the web.
+
+It makes use of Transfer-Encoding: chunked and select i/o to eventfully stream new log data to
+the browser.
+
+
+To configure all you need to do is point the app to a specific log file to watch.
+
+Enjoy!
+
+Todd
