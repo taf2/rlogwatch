@@ -1,0 +1,22 @@
+#log {
+  width: 80%;
+  border:1px solid;
+  margin:0 auto;
+  padding: 10px;
+}
+#log p {
+  padding:0;
+  margin:0;
+}
+#log p.alternate {
+  background-color: #cceecc;
+}
+iframe {
+  width:1px;
+  height:1px;
+  visibility: hidden;
+  position:absolute;
+  top:0px;
+  left:0px;
+  border:none;
+}
