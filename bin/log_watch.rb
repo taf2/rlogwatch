@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# From mongrel
 
 SERVER_ROOT=File.expand_path("#{File.dirname(__FILE__)}/../")
 $: << "#{SERVER_ROOT}/lib"
@@ -219,8 +220,6 @@ class Add < GemPlugin::Plugin "/commands"
   end
 
 end
-  
-GemPlugin::Manager.instance.load "logwatch" => GemPlugin::INCLUDE, "logwatch" => GemPlugin::EXCLUDE
 
 if not Mongrel::Command::Registry.instance.run ARGV
   exit 1
